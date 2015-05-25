@@ -1,0 +1,932 @@
+body {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+
+
+
+}
+
+
+
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom right, #000, #fff);
+  opacity: .8;
+  z-index: -1;
+}
+
+header {
+
+  text-align: center;
+}
+
+.headTop {
+  display: inline-block;
+  position: relative;
+  width: 61%;
+
+}
+
+
+
+
+#headTopLeft {
+ display: inline-block;
+ width:49%;
+
+}
+
+#headTopLeft p {
+  color: white;
+  display: inline-block;
+  float: right;
+  font-family: Futura;
+  margin-right: 15%;
+
+}
+
+
+
+#headTopRight {
+  display: inline-block;
+  width:39%;
+
+
+
+
+}
+
+
+
+
+
+.socialIcons {
+
+    display: inline-block;
+    padding: 0;
+    width: 48%;
+    margin-top: 20px;
+
+
+
+
+
+}
+
+
+
+
+.socialIcons img {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 23%;
+
+
+
+}
+
+
+.containCircles {
+  width: 50%;
+  display: inline-block;
+  min-height: 30px;
+
+}
+
+.circle5 {
+float: right;
+}
+
+
+.circle5 img {
+  display: block;
+  border-radius: 100%;
+
+
+
+
+
+
+
+}
+
+
+
+
+.headMiddle {
+  display: block;
+  color: white;
+  font-family: Futura;
+  font-size: .9em;
+
+
+
+}
+
+.nav {
+  text-align: center;
+  padding: 0;
+
+}
+
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 5px;
+
+}
+
+.nav div {
+
+  display: inline-block;
+  width: 14.6%;
+  background-color: #B3292D;
+}
+
+
+@media screen and (min-width: 760px) and (max-width: 1028px) {
+
+    .nav div {
+      width: 24%;
+
+  }
+
+  .containerSkateboarders {
+    display: block;
+    font-size: .9em;
+    margin-left: 26%;
+  }
+  .containerSkateboarders2 {
+    display: block;
+    font-size: .9em;
+    margin-left: 26%;
+
+  }
+
+  .topLeft {
+    min-width: 400px;
+  }
+  .topRight {
+    min-width: 400px;
+  }
+  .bottom {
+    min-width: 400px;
+  }
+  .tommy {
+    min-width: 400px;
+  }
+
+  .message {
+
+    min-height: 150px;
+  }
+
+  .crop {
+    min-width: 600px;
+  }
+  .grid {
+    min-width: 600px;
+  }
+}
+
+
+
+@media screen and (min-width: 539px) and (max-width: 759px) {
+
+
+    .nav div {
+      width: 48%;
+    }
+    .containerSkateboarders {
+      display: block;
+      font-size: .9em;
+      margin-left: 27%;
+    }
+    .containerSkateboarders2 {
+      display: block;
+      font-size: .9em;
+      margin-left: 27%;
+
+    }
+
+    .topLeft {
+      min-width: 300px;
+    }
+    .topRight {
+      min-width: 300px;
+    }
+    .bottom {
+      min-width: 300px;
+    }
+    .tommy {
+      min-width: 300px;
+    }
+
+    .column1 {
+      min-width: 400px;
+    }
+
+    .column2 {
+      min-width: 400px;
+    }
+
+    .column3 {
+      min-width: 400px;
+    }
+    .crop {
+      min-width: 500px;
+    }
+    .grid {
+      min-width: 500px;
+    }
+
+
+    .message {
+      min-height: 200px;
+    }
+
+  .contact {
+    min-width: 500px;
+
+  }
+
+}
+
+
+@media screen and (min-width: 408px) and (max-width: 538px) {
+
+
+    .nav div {
+      width: 80%;
+    }
+    .containerSkateboarders {
+      display: block;
+      font-size: .9em;
+      margin-left: 12%;
+    }
+    .containerSkateboarders2 {
+      display: block;
+      font-size: .9em;
+      margin-left: 12%;
+
+    }
+
+    .topLeft {
+      min-width: 300px;
+    }
+    .topRight {
+      min-width: 300px;
+    }
+    .bottom {
+      min-width: 300px;
+    }
+    .tommy {
+      min-width: 300px;
+    }
+
+    .column1 {
+      min-width: 350px;
+    }
+
+    .column2 {
+      min-width: 350px;
+    }
+
+    .column3 {
+      min-width: 350px;
+    }
+    .crop {
+      min-width: 390px;
+    }
+    .grid {
+      min-width: 390px;
+    }
+    .logo {
+      max-width: 200px;
+      min-width: 200px;
+    }
+
+    .message {
+      min-height: 200px;
+    }
+
+
+    .contact {
+      min-width: 350px;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 407px) {
+
+
+    .nav div {
+      width: 80%;
+    }
+    .containerSkateboarders {
+      display: block;
+      font-size: .9em;
+      margin-left: 15%;
+    }
+    .containerSkateboarders2 {
+      display: block;
+      font-size: .9em;
+      margin-left: 15%;
+
+    }
+
+    .topLeft {
+      min-width: 250px;
+    }
+    .topRight {
+      min-width: 250px;
+    }
+    .bottom {
+      min-width: 250px;
+    }
+    .tommy {
+      min-width: 250px;
+    }
+
+    .column1 {
+      min-width: 250px;
+    }
+
+    .column2 {
+      min-width: 250px;
+    }
+
+    .column3 {
+      min-width: 250px;
+    }
+    .crop {
+      min-width: 300px;
+    }
+    .grid {
+      min-width: 300px;
+    }
+    .logo {
+      max-width: 170px;
+      min-width: 170px;
+    }
+
+    .message {
+      min-height: 200px;
+    }
+
+
+    .contact {
+      min-width: 300px;
+    }
+
+}
+
+
+
+
+
+.headBottom {
+  text-align: center;
+  position: relative;
+
+
+
+}
+
+
+@-webkit-keyframes cycle-box {
+  0% {
+    background-color: #b4292e;
+    }
+  20% {
+    background-color: #821c1f;
+  }
+  40% {
+    background-color: #560f11;
+  }
+  60% {
+    background-color: #black;
+  }
+  80% {
+    background-color: #821c1f;
+    }
+100% {
+    background-color: #b4292e;
+
+}
+
+
+}
+.fix:hover {
+  -webkit-animation: cycle-box .9s infinite;
+
+}
+
+
+
+
+.crop {
+  background-image: url(images/top-image.png);
+  min-height: 230px;
+  width: 58%;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  border: 9px solid white;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+
+
+}
+
+
+.grid {
+  background-image: url(images/grid.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 230px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+
+
+}
+
+.logo {
+  float: left;
+  width: 40%;
+  min-height: 180px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 2;
+
+
+}
+
+
+.circles img {
+
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+
+section {
+  text-align: center;
+  margin: 20px;
+}
+
+.column1 {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  width: 18%;
+  font-family: Futura;
+  padding-left:10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.column2 {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  width: 18%;
+  font-family: Futura;
+  padding-left:10px;
+  padding-right: 10px;
+  vertical-align: middle;
+
+
+}
+
+.column3 {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  width: 18%;
+  font-family: Futura;
+  padding-left:10px;
+  padding-right: 10px;
+  vertical-align: middle;
+
+
+}
+
+.column1 p {
+  text-align: left;
+  padding: 10px;
+  font-size: .8em;
+  color:  grey;
+  margin: 0;
+}
+
+.column2 p {
+  text-align: left;
+  padding: 10px;
+  font-size: .8em;
+  color:  grey;
+  margin: 0;
+
+}
+.column3 p {
+  text-align: left;
+  padding: 10px;
+  font-size: .8em;
+  color:  grey;
+  margin: 0;
+}
+
+#readMore1 {
+  text-align: center;
+  border-right: 2px solid #B3292D;
+  border-left: 2px solid #B3292D;
+  margin-left: 25%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  width: 50%;
+  color: #B3292D
+
+}
+
+#readMore2 {
+  text-align: center;
+  border-right: 2px solid #B3292D;
+  border-left: 2px solid #B3292D;
+  margin-left: 25%;
+  margin-bottom: 0;
+  padding: 0;
+  width: 50%;
+  color: #B3292D
+
+}
+
+#readMore3 {
+  text-align: center;
+  border-right: 2px solid #B3292D;
+  border-left: 2px solid #B3292D;
+  margin-left: 25%;
+  margin-bottom: 0;
+  padding: 0;
+  width: 50%;
+  color: #B3292D
+
+}
+
+
+#readMore1:hover {
+  color: black;
+}
+
+#readMore2:hover {
+  color: black;
+}
+
+#readMore3:hover {
+  color: black;
+}
+.date {
+
+  margin: 0;
+}
+
+
+.title {
+  text-align: left;
+
+
+}
+
+
+.fix li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.fix li:before, .fix li:after {
+  background-color: #ddd;
+  content: '\a0';
+  flex-grow: 1;
+  height: 2px;
+  position: relative;
+  top: 0.5em;
+}
+.fix li:before {
+  margin-right:10px;
+}
+.fix li:after {
+  margin-left:10px;
+}
+
+aside {
+  text-align: center;
+
+
+
+
+
+}
+
+aside div {
+  display: inline-block;
+
+}
+
+
+.containerSkateboarders {
+  width: 40%;
+
+
+
+
+
+}
+
+
+
+.containerSkateboarders2 {
+  width: 16%;
+  min-height: 304px;
+  max-height: 304px;
+  vertical-align: bottom;
+
+
+
+
+
+
+
+}
+
+.topLeft {
+  background-image: url(images/sk8er-4.png);
+  width: 48%;
+  border: 4px solid white;
+  background-position: 10% 10%;
+  background-size: cover;
+  min-height: 145px;
+
+
+
+
+
+}
+
+.topRight {
+  background-image: url(images/sk8er-3.png);
+  width: 48%;
+  border: 4px solid white;
+  background-position: 10% 20%;
+  background-size: cover;
+  min-height: 145px;
+
+}
+
+.bottom {
+  background-image: url(images/sk8er-1.png);
+  width: 98%;
+  border: 4px solid white;
+  background-position: 90% 70%;
+  background-size: cover;
+  min-height: 145px;
+
+}
+
+.tommy {
+  background-image: url(images/sk8er-2.png);
+  width: 100%;
+  border: 4px solid white;
+  background-position: 100% 70%;
+  background-size: cover;
+  min-height: 304px;
+  max-height: 304px;
+
+
+
+}
+
+
+
+
+
+
+.containerSkateboarders p {
+  font-family: Futura;
+  color: white;
+  font-size: 2em;
+
+}
+
+
+.containerSkateboarders2 p {
+  font-family: Futura;
+  color: white;
+  font-size: 2em;
+
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1277px) {
+
+    .containerSkateboarders {
+      width: 50%;
+
+    }
+
+    .containerSkateboarders2 {
+      width: 22%;
+
+    }
+
+
+}
+
+
+
+
+
+.skateboards {
+  width: 56%;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+
+
+}
+
+.skateboards img {
+  margin: 5px;
+
+
+}
+
+
+
+
+
+.spin:hover {
+  -webkit-animation: spin 0.7s infinite linear;
+-moz-animation: spin 0.7s infinite linear;
+-o-animation: spin 0.7s infinite linear;
+-ms-animation: spin 0.7s infinite linear;
+}
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+
+
+}
+
+footer {
+
+  text-align: center;
+
+
+}
+
+
+footer div {
+  display: inline-block;
+
+}
+.contact {
+  width: 56%;
+  top-margin: 15px;
+  background-color: white;
+  display: inline-block;
+
+
+}
+
+.contentLeft {
+  width: 50%;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  float: left;
+
+
+
+}
+
+
+.contentLeft p {
+  font-family: Futura;
+  text-align: left;
+  color: grey;
+  font-size: .8em;
+  margin: 0 15px 15px 15px;
+
+
+}
+
+
+
+.contentLeft h2 {
+  font-family: futura;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+}
+
+.contentRight {
+  width: 38%;
+
+
+
+
+}
+
+.name {
+  background-color: white;
+  border: 1.5px solid grey;
+  width: 36%;
+  margin: 5px;
+
+
+
+
+}
+
+.email {
+  background-color: white;
+  border: 1.5px solid grey;
+  width: 36%;
+  margin: 5px;
+
+}
+
+.message {
+  background-color: white;
+  border: 1.5px solid grey;
+  width: 36%;
+  margin: 5px;
+}
+
+.submit {
+  background-color: #B3292D;
+  border: 1.5px solid grey;
+  width: 19%;
+  margin-left: 69%;
+  margin-bottom: 5px;
+
+
+
+
+
+}
+.name p {
+  font-family: Futura;
+  color: grey;
+  font-size: .6em;
+  text-align: left;
+  padding-left: 5%;
+
+
+}
+
+.email p {
+  font-family: Futura;
+  color: grey;
+  font-size: .6em;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.message p {
+  font-family: Futura;
+  color: grey;
+  font-size: .6em;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.submit p {
+  font-family: Futura;
+  color: white;
+  font-size: .7em;
+
+
+}
+
+
+.bottomSocialIcons {
+  float: left;
+
+}
+.bottomSocialIcons img  {
+  margin: 0;
+  padding: 0;
+  width: 10%;
+
+
+}
