@@ -495,11 +495,7 @@ float: right;
 }
 .fix:hover {
   -webkit-animation: cycle-box .9s infinite;
-
 }
-
-
-
 
 .crop {
   background-image: url(images/top-image.png);
@@ -513,10 +509,7 @@ float: right;
   position: relative;
   z-index: 0;
   background-position: 0% 27%;
-
-
 }
-
 
 .grid {
   background-image: url(images/grid.png);
@@ -536,17 +529,12 @@ float: right;
   margin-top: 15px;
   position: relative;
   z-index: 2;
-
-
 }
 
-
 .circles img {
-
   border-radius: 100%;
   margin-top: 10px;
 }
-
 
 section {
   text-align: center;
@@ -573,8 +561,6 @@ section {
   padding-left:10px;
   padding-right: 10px;
   vertical-align: middle;
-
-
 }
 
 .column3 {
@@ -586,8 +572,6 @@ section {
   padding-left:10px;
   padding-right: 10px;
   vertical-align: middle;
-
-
 }
 
 .column1 p {
@@ -604,7 +588,6 @@ section {
   font-size: .8em;
   color:  grey;
   margin: 0;
-
 }
 .column3 p {
   text-align: left;
@@ -624,7 +607,6 @@ section {
   padding: 0;
   width: 50%;
   color: #B3292D
-
 }
 
 #readMore2 {
@@ -636,7 +618,6 @@ section {
   padding: 0;
   width: 50%;
   color: #B3292D
-
 }
 
 #readMore3 {
@@ -648,9 +629,7 @@ section {
   padding: 0;
   width: 50%;
   color: #B3292D
-
 }
-
 
 #readMore1:hover {
   color: black;
@@ -664,17 +643,12 @@ section {
   color: black;
 }
 .date {
-
   margin: 0;
 }
 
-
 .title {
   text-align: left;
-
-
 }
-
 
 .fix li {
   display: flex;
@@ -699,42 +673,21 @@ section {
 
 aside {
   text-align: center;
-
-
-
-
-
 }
 
 aside div {
   display: inline-block;
-
 }
-
 
 .containerSkateboarders {
   width: 40%;
-
-
-
-
-
 }
-
-
 
 .containerSkateboarders2 {
   width: 16%;
   min-height: 304px;
   max-height: 304px;
   vertical-align: bottom;
-
-
-
-
-
-
-
 }
 
 .topLeft {
@@ -744,11 +697,6 @@ aside div {
   background-position: 10% 10%;
   background-size: cover;
   min-height: 145px;
-
-
-
-
-
 }
 
 .topRight {
@@ -758,7 +706,6 @@ aside div {
   background-position: 10% 20%;
   background-size: cover;
   min-height: 145px;
-
 }
 
 .bottom {
@@ -768,7 +715,6 @@ aside div {
   background-position: 90% 70%;
   background-size: cover;
   min-height: 145px;
-
 }
 
 .tommy {
@@ -779,76 +725,46 @@ aside div {
   background-size: cover;
   min-height: 304px;
   max-height: 304px;
-
-
-
 }
-
-
-
-
-
 
 .containerSkateboarders p {
   font-family: Futura;
   color: white;
   font-size: 2em;
-
 }
-
 
 .containerSkateboarders2 p {
   font-family: Futura;
   color: white;
   font-size: 2em;
-
 }
 
 @media screen and (min-width: 1029px) and (max-width: 1277px) {
 
     .containerSkateboarders {
       width: 50%;
-
     }
 
     .containerSkateboarders2 {
       width: 22%;
-
     }
 
   .skateboards {
       max-width: 400px;
       min-width: 400px;
-
   }
-
-
-
 }
-
-
-
-
 
 .skateboards {
   width: 56%;
   background-color: white;
   margin-top: 15px;
   margin-bottom: 15px;
-
-
-
 }
 
 .skateboards img {
   margin: 5px;
-
-
 }
-
-
-
-
 
 .spin:hover {
   -webkit-animation: spin 0.7s infinite linear;
@@ -859,17 +775,11 @@ aside div {
 @-webkit-keyframes spin {
 0% { -webkit-transform: rotate(0deg);}
 100% { -webkit-transform: rotate(360deg);}
-
-
 }
 
 footer {
-
   text-align: center;
-
-
 }
-
 
 footer div {
   display: inline-block;
@@ -880,8 +790,6 @@ footer div {
   top-margin: 15px;
   background-color: white;
   display: inline-block;
-
-
 }
 
 .contentLeft {
@@ -889,11 +797,7 @@ footer div {
   margin-left: 15px;
   margin-bottom: 15px;
   float: left;
-
-
-
 }
-
 
 .contentLeft p {
   font-family: Futura;
@@ -901,26 +805,17 @@ footer div {
   color: grey;
   font-size: .8em;
   margin: 0 15px 15px 15px;
-
-
 }
-
-
 
 .contentLeft h2 {
   font-family: futura;
   text-align: left;
   margin-bottom: 5px;
   margin-top: 5px;
-
 }
 
 .contentRight {
   width: 38%;
-
-
-
-
 }
 
 .name {
@@ -928,10 +823,6 @@ footer div {
   border: 1.5px solid grey;
   width: 36%;
   margin: 5px;
-
-
-
-
 }
 
 .email {
@@ -939,7 +830,6 @@ footer div {
   border: 1.5px solid grey;
   width: 36%;
   margin: 5px;
-
 }
 
 .message {
@@ -955,20 +845,14 @@ footer div {
   width: 19%;
   margin-left: 69%;
   margin-bottom: 5px;
-
-
-
-
-
 }
+
 .name p {
   font-family: Futura;
   color: grey;
   font-size: .6em;
   text-align: left;
   padding-left: 5%;
-
-
 }
 
 .email p {
@@ -991,19 +875,14 @@ footer div {
   font-family: Futura;
   color: white;
   font-size: .7em;
-
-
 }
-
 
 .bottomSocialIcons {
   float: left;
-
 }
+
 .bottomSocialIcons img  {
   margin: 0;
   padding: 0;
   width: 10%;
-
-
 }
