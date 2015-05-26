@@ -69,8 +69,10 @@ header {
 
     display: inline-block;
     padding: 0;
-    width: 48%;
+    width: 70%;
     margin-top: 20px;
+    vertical-align: bottom;
+
 
 
 
@@ -85,7 +87,8 @@ header {
   float: right;
   margin: 0;
   padding: 0;
-  width: 23%;
+  width: 24%;
+
 
 
 
@@ -93,9 +96,11 @@ header {
 
 
 .containCircles {
-  width: 50%;
+
   display: inline-block;
   min-height: 30px;
+
+
 
 }
 
@@ -107,6 +112,7 @@ float: right;
 .circle5 img {
   display: block;
   border-radius: 100%;
+  padding: 3px 0 3px 0;
 
 
 
@@ -193,6 +199,19 @@ float: right;
   .grid {
     min-width: 600px;
   }
+
+  .skateboards {
+      max-width: 400px;
+      min-width: 400px;
+
+  }
+
+  .headTop {
+    min-width: 740px;
+
+  }
+
+
 }
 
 
@@ -246,7 +265,11 @@ float: right;
       min-width: 500px;
     }
 
+    .logo {
+      min-width: 250px;
+      max-width: 250px;
 
+    }
     .message {
       min-height: 200px;
     }
@@ -256,6 +279,22 @@ float: right;
 
   }
 
+  .skateboards {
+      max-width: 414px;
+      min-width: 414px;
+}
+
+  .headTop {
+    min-width: 520px;
+  }
+
+  .socialIcons {
+    margin-top: 0;
+  }
+
+  .circle5 img {
+    padding: 1.7px 0 1.7px 0;
+  }
 }
 
 
@@ -321,6 +360,24 @@ float: right;
       min-width: 350px;
     }
 
+    .skateboards {
+      min-width: 200px;
+      max-width: 200px;
+
+    }
+    .headTop {
+      min-width: 400px;
+    }
+
+    .socialIcons {
+      margin-top: 0;
+      min-width: 130px;
+    }
+
+    .circle5 img {
+      padding: 1px 0 1px 0;
+    }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 407px) {
@@ -366,14 +423,14 @@ float: right;
       min-width: 250px;
     }
     .crop {
-      min-width: 300px;
+      min-width: 319px;
     }
     .grid {
-      min-width: 300px;
+      min-width: 319px;
     }
     .logo {
-      max-width: 170px;
-      min-width: 170px;
+      max-width: 200px;
+      min-width: 200px;
     }
 
     .message {
@@ -383,6 +440,19 @@ float: right;
 
     .contact {
       min-width: 300px;
+    }
+
+    .headTop {
+      min-width: 315px;
+    }
+
+    .socialIcons {
+      margin-top: 0;
+      min-width: 100px;   
+    }
+
+    .circle5 img {
+      padding: .5px 0 .5px 0;
     }
 
 }
@@ -745,6 +815,13 @@ aside div {
       width: 22%;
 
     }
+
+  .skateboards {
+      max-width: 400px;
+      min-width: 400px;
+
+  }
+
 
 
 }
