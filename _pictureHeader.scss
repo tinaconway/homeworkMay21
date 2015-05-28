@@ -1,0 +1,45 @@
+.headBottom {
+  text-align: $center;
+  position: relative;
+}
+
+
+
+.crop {
+  background-image: url(images/top-image.png);
+  min-height: 230px;
+  width: 58%;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  border: 9px solid white;
+  display: $display-inline;
+  position: relative;
+  z-index: 0;
+  background-position: 0% 27%;
+}
+
+.grid {
+  background-image: url(images/grid.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 230px;
+  display: $display-inline;
+  z-index: 1;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.logo {
+  float: left;
+  width: 40%;
+  min-height: 180px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.circles img {
+  border-radius: 100%;
+  margin-top: 10px;
+}

@@ -1,0 +1,65 @@
+aside {
+  text-align: $center;
+  div {
+    display: $display-inline;
+  }
+}
+
+
+.containerSkateboarders {
+  width: 40%;
+  p {
+   font-family: $font-family;
+   color: white;
+   font-size: 2em;
+ }
+}
+
+.containerSkateboarders2 {
+  width: 16%;
+  min-height: 304px;
+  max-height: 304px;
+  vertical-align: bottom;
+  p {
+    font-family: $font-family;
+    color: white;
+    font-size: 2em;
+  }
+}
+
+.topLeft {
+  background-image: url(images/sk8er-4.png);
+  width: 48%;
+  border: 4px solid white;
+  background-position: 10% 10%;
+  background-size: cover;
+  min-height: 145px;
+}
+
+.topRight {
+  background-image: url(images/sk8er-3.png);
+  width: 48%;
+  border: 4px solid white;
+  background-position: 10% 20%;
+  background-size: cover;
+  min-height: 145px;
+}
+
+.bottom {
+  background-image: url(images/sk8er-1.png);
+  width: 98%;
+  border: 4px solid white;
+  background-position: 90% 70%;
+  background-size: cover;
+  min-height: 145px;
+}
+
+.tommy {
+  background-image: url(images/sk8er-2.png);
+  width: 100%;
+  border: 4px solid white;
+  background-position: 100% 70%;
+  background-size: cover;
+  min-height: 304px;
+  max-height: 304px;
+}

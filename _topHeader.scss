@@ -1,0 +1,60 @@
+header {
+  text-align: $center;
+}
+
+.hiddenLogo {
+  display: none;
+}
+
+.headTop {
+  display: $display-inline;
+  width: 61%;
+}
+
+#headTopLeft {
+ display: $display-inline;
+ width:49%;
+ vertical-align: middle;
+  p {
+   color: white;
+   display: $display-inline;
+   float: right;
+   font-family: $font-family;
+   margin-right: 15%;
+ }
+}
+
+
+#headTopRight {
+  display: $display-inline;
+  width:39%;
+  vertical-align: middle;
+}
+.socialIcons {
+    display: $display-inline;
+    padding: 0;
+    width: 70%;
+    margin-top: 20px;
+    vertical-align: middle;
+    img {
+      float: right;
+      margin: 0;
+      padding: 0;
+      width: 24%;
+    }
+}
+
+.containCircles {
+  display: $display-inline;
+  min-height: 30px;
+  vertical-align: middle;
+}
+
+.circle5 {
+float: right;
+img {
+  display: block;
+  border-radius: 100%;
+  padding: 3px 0 3px 0;
+}
+}

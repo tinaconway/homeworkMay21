@@ -1,0 +1,330 @@
+@media screen and (min-width: 760px) and (max-width: 1028px) {
+
+    .nav div {
+      width: 24%;
+  }
+
+  .containerSkateboarders {
+    display: block;
+    font-size: .9em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  .containerSkateboarders2 {
+    display: block;
+    font-size: .9em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+
+  .topLeft {
+    min-width: 400px;
+  }
+  .topRight {
+    min-width: 400px;
+  }
+  .bottom {
+    min-width: 400px;
+  }
+
+
+  .message {
+    min-height: 150px;
+  }
+
+  .crop {
+    min-width: 600px;
+  }
+  .grid {
+    min-width: 600px;
+  }
+
+  .skateboards {
+      max-width: 400px;
+      min-width: 400px;
+  }
+
+  .headTop {
+    min-width: 740px;
+  }
+
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1277px) {
+
+    .containerSkateboarders {
+      width: 50%;
+    }
+
+    .containerSkateboarders2 {
+      width: 22%;
+    }
+
+  .skateboards {
+      max-width: 400px;
+      min-width: 400px;
+  }
+}
+
+@media screen and (min-width: 539px) and (max-width: 759px) {
+
+
+    .nav div {
+      width: 48%;
+    }
+    .containerSkateboarders {
+      display: block;
+      font-size: .9em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+    }
+    .containerSkateboarders2 {
+      display: block;
+      font-size: .9em;
+      margin-left: 27%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+    }
+
+    .topLeft {
+      min-width: 400px;
+    }
+    .topRight {
+      min-width: 400px;
+    }
+    .bottom {
+      min-width: 400px;
+    }
+
+
+    .column1 {
+      min-width: 400px;
+    }
+
+    .column2 {
+      min-width: 400px;
+    }
+
+    .column3 {
+      min-width: 400px;
+    }
+    .crop {
+      min-width: 500px;
+    }
+    .grid {
+      min-width: 500px;
+    }
+
+    .logo {
+      min-width: 250px;
+      max-width: 250px;
+
+    }
+    .message {
+      min-height: 200px;
+    }
+
+  .contact {
+    min-width: 500px;
+  }
+
+  .skateboards {
+      max-width: 414px;
+      min-width: 414px;
+}
+
+  .headTop {
+    min-width: 520px;
+  }
+
+  .socialIcons {
+    margin-top: 0;
+  }
+
+  .circle5 img {
+    padding: 1.7px 0 1.7px 0;
+  }
+}
+
+
+@media screen and (min-width: 408px) and (max-width: 538px) {
+
+    .nav div {
+      width: 80%;
+    }
+    .containerSkateboarders {
+      display: block;
+      font-size: .9em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+        }
+    .containerSkateboarders2 {
+      display: block;
+      font-size: .9em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+    }
+
+    .topLeft {
+      min-width: 300px;
+    }
+    .topRight {
+      min-width: 300px;
+    }
+    .bottom {
+      min-width: 300px;
+    }
+
+
+    .column1 {
+      min-width: 350px;
+    }
+
+    .column2 {
+      min-width: 350px;
+    }
+
+    .column3 {
+      min-width: 350px;
+    }
+    .crop {
+      min-width: 390px;
+    }
+    .grid {
+      min-width: 390px;
+    }
+    .logo {
+      max-width: 200px;
+      min-width: 200px;
+    }
+
+    .message {
+      min-height: 200px;
+    }
+
+    .contact {
+      min-width: 350px;
+    }
+
+    .skateboards {
+      min-width: 200px;
+      max-width: 200px;
+    }
+    .headTop {
+      min-width: 400px;
+    }
+
+    .socialIcons {
+      margin-top: 0;
+      min-width: 130px;
+    }
+
+    .circle5 img {
+      padding: 1px 0 1px 0;
+    }
+    .logo {
+      display: none;
+    }
+
+    .hiddenLogo {
+      display: block;
+    }
+    .hiddenLogo img {
+      width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 407px) {
+
+    .nav div {
+      width: 80%;
+    }
+    .containerSkateboarders {
+      display: block;
+      font-size: .9em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+    }
+    .containerSkateboarders2 {
+      display: block;
+      font-size: .9em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+    }
+
+    .topLeft {
+      min-width: 300px;
+    }
+    .topRight {
+      min-width: 300px;
+    }
+    .bottom {
+      min-width: 300px;
+    }
+  
+
+    .column1 {
+      min-width: 250px;
+    }
+
+    .column2 {
+      min-width: 250px;
+    }
+
+    .column3 {
+      min-width: 250px;
+    }
+    .crop {
+      min-width: 319px;
+    }
+    .grid {
+      min-width: 319px;
+    }
+    .logo {
+      max-width: 200px;
+      min-width: 200px;
+    }
+
+    .message {
+      min-height: 200px;
+    }
+
+
+    .contact {
+      min-width: 300px;
+    }
+
+    .headTop {
+      min-width: 315px;
+    }
+
+    .socialIcons {
+      margin-top: 0;
+      min-width: 100px;
+    }
+
+    .circle5 img {
+      padding: .5px 0 .5px 0;
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .hiddenLogo {
+      display: block;
+    }
+    .hiddenLogo img {
+      width: 80%;
+    }
+
+}

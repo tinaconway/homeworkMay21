@@ -1,0 +1,81 @@
+footer {
+  text-align: $center;
+  div {
+    display: $display-inline;
+  }
+}
+
+.contact {
+  width: 56%;
+  top-margin: 15px;
+  background-color: $white-background;
+  display: $display-inline;
+}
+
+.contentLeft {
+  width: 50%;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  float: left;
+  p {
+    font-family: $font-family;
+    text-align: left;
+    color: grey;
+    font-size: .8em;
+    margin: 0 15px 15px 15px;
+  }
+  h2 {
+    font-family: $font-family;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+}
+
+.contentRight {
+  width: 38%;
+}
+
+.name {
+  background-color: $white-background;
+  border: 1.5px solid grey;
+  width: 36%;
+  margin: 5px;
+  p {
+    font-family: $font-family;
+    color: grey;
+    font-size: .6em;
+    text-align: left;
+    padding-left: 5%;
+  }
+}
+
+.email {
+  @extend .name;
+}
+
+.message {
+  @extend .name;
+}
+
+.submit {
+  background-color: $layout-red;
+  border: 1.5px solid grey;
+  width: 19%;
+  margin-left: 69%;
+  margin-bottom: 5px;
+  p {
+    font-family: $font-family;
+    color: white;
+    font-size: .7em;
+  }
+}
+
+.bottomSocialIcons {
+  float: left;
+  img  {
+    margin: 0;
+    padding: 0;
+    width: 10%;
+  }
+}

@@ -1,0 +1,83 @@
+
+section {
+  text-align: $center;
+  margin: 20px;
+}
+
+.column1 {
+  background-color: $white-background;
+  color: black;
+  display: $display-inline;
+  width: 18%;
+  font-family: $font-family;
+  padding-left:10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  p {
+    text-align: left;
+    padding: 10px;
+    font-size: .8em;
+    color:  grey;
+    margin: 0;
+  }
+
+}
+
+.column2 {
+  @extend .column1;
+}
+
+.column3 {
+  @extend .column1;
+}
+
+#readMore1 {
+  text-align: $center;
+  border-right: 2px solid $layout-red;
+  border-left: 2px solid $layout-red;
+  margin-left: 25%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  width: 50%;
+  color: $layout-red;
+  &:hover {
+    color: black;
+  }
+}
+
+#readMore2 {
+  text-align: $center;
+  border-right: 2px solid $layout-red;
+  border-left: 2px solid $layout-red;
+  margin-left: 25%;
+  margin-bottom: 0;
+  padding: 0;
+  width: 50%;
+  color: $layout-red;
+  &:hover {
+    color: black;
+  }
+}
+
+#readMore3 {
+  text-align: $center;
+  border-right: 2px solid $layout-red;
+  border-left: 2px solid $layout-red;
+  margin-left: 25%;
+  margin-bottom: 0;
+  padding: 0;
+  width: 50%;
+  color: $layout-red;
+  &:hover {
+    color: black;
+  }
+}
+
+.date {
+  margin: 0;
+}
+
+.title {
+  text-align: left;
+}
